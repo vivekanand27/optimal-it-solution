@@ -3,9 +3,12 @@ import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Services | Optimal IT Solution",
+  title: "Services — Custom Software, Web Development & Digital Marketing",
   description:
-    "Digital marketing, web & app development, SEO & PPC, social media management, and custom software. See how we can help your business.",
+    "Software development services in Raipur: custom software, web & app development, digital marketing, SEO, PPC, social media management. Get a quote from Optimal IT Solution.",
+  openGraph: {
+    url: "https://optimalitsolution.com/services",
+  },
 };
 
 const services = [

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Left sweep -->
+  <path fill="url(#g)" d="M16 2C8 2 4 8 4 16c0 4 2 8 5 10l2-4c-2-1.5-3-4-3-6 0-6 3-10 8-10s8 4 8 10c0 2-1 4.5-3 6l2 4c3-2 5-6 5-10 0-8-4-14-12-14Z"/>
+  <!-- Right sweep -->
+  <path fill="url(#g)" d="M16 2c8 0 12 6 12 14 0 4-2 8-5 10l-2-4c2-1.5 3-4 3-6 0-6-3-10-8-10s-8 4-8 10c0 2 1 4.5 3 6l-2 4c-3-2-5-6-5-10 0-8 4-14 12-14Z"/>
+  <!-- Bar chart -->
+  <rect x="11.5" y="18" width="2.5" height="6" rx="0.5" fill="#2563eb"/>
+  <rect x="15" y="13" width="2.5" height="11" rx="0.5" fill="#2563eb"/>
+  <rect x="18.5" y="7" width="2.5" height="17" rx="0.5" fill="#2563eb"/>
+</svg>

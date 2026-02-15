@@ -2,22 +2,34 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Software Development Company in Raipur | Custom Web & App Development",
+  description:
+    "Optimal IT Solution is a software development company in Raipur, Chhattisgarh. We build custom software, web & mobile apps, and offer digital marketing, SEO & IT solutions. Get a free quote.",
+  openGraph: {
+    title: "Software Development Company in Raipur | Optimal IT Solution",
+    description:
+      "Custom software, web & app development, digital marketing & SEO in Raipur. Your trusted IT and software development company in Chhattisgarh.",
+    url: "https://optimalitsolution.com",
+  },
+};
+
 export default function Home() {
   return (
     <>
       <Header />
       <main>
         {/* Hero */}
-        <section className="py-5 hero-section">
+        <section className="py-5 hero-section" aria-label="Introduction">
           <div className="container py-5 text-center">
             <p className="text-primary fw-semibold text-uppercase small mb-2">
-              Custom software for growing businesses
+              Software development company in Raipur, Chhattisgarh
             </p>
             <h1 className="display-4 fw-bold mb-4">
               We Build Software That <span className="text-primary">Works</span>
             </h1>
             <p className="lead text-muted mb-4 mx-auto" style={{ maxWidth: "36rem" }}>
-              From web applications to enterprise solutions. We deliver clean,
+              Custom software development, web applications & mobile apps. We deliver clean,
               maintainable code and clear communication — so you get a product
               that lasts.
             </p>

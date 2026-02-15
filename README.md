@@ -27,11 +27,11 @@ Your site is already configured for **static export** (`output: "export"` in `ne
 
 1. Push the project to GitHub (exclude `backend/` if you don’t need it).
 2. Go to [vercel.com](https://vercel.com) → **Add New** → **Project** → import your repo.
-3. **Root Directory:** leave as `.` (or set to the repo root).
-4. **Build Command:** `npm run build`  
-   **Output Directory:** `out`
-5. **Environment variables:** add `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` with your Formspree form URL (e.g. `https://formspree.io/f/xxxxx`) so the contact form works.
-6. Deploy. Vercel will assign a URL; point your domain (optimalitsolution.com) in the project **Settings → Domains**.
+3. **Root Directory:** leave as `.` (repo root).
+4. **Build Command:** leave default (`npm run build` or `next build`).  
+   **Output Directory:** leave **empty** (do not set to `out`). Vercel detects Next.js static export and deploys it automatically.
+5. **Environment variables:** add `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` with your Formspree form URL (e.g. `https://formspree.io/f/xxxxx`).
+6. Deploy. Add your domain (optimalitsolution.com) in **Settings → Domains**.
 
 ### Option 2: Netlify
 
