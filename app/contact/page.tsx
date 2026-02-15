@@ -3,9 +3,9 @@ import { Footer } from "@/components/Footer";
 import { ContactForm } from "../../components/ContactForm";
 
 export const metadata = {
-  title: "Contact — Software Development Company Raipur",
+  title: "Contact — Software Development Company in India",
   description:
-    "Contact Optimal IT Solution in Raipur, Chhattisgarh for custom software, web development, or digital marketing. Phone 8851335509. We respond within 24 hours.",
+    "Contact Optimal IT Solution in Raipur, Chhattisgarh for custom software, web development, or digital marketing. Serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Phone 8851335509. We respond within 24 hours.",
   openGraph: {
     url: "https://optimalitsolution.com/contact",
   },
@@ -30,9 +30,12 @@ export default function ContactPage() {
             <div className="row g-5">
               <div className="col-lg-5">
                 <h2 className="h5 fw-bold mb-3">Get in touch</h2>
-                <p className="text-muted mb-4">
+                <p className="text-muted mb-2">
                   Describe your project or ask a question. We typically respond
-                  within 24-48 hours.
+                  within 24 hours.
+                </p>
+                <p className="small text-primary fw-semibold mb-4">
+                  Website from ₹4,999 — get your business online 24/7.
                 </p>
                 <div className="mb-4">
                   <strong className="d-block text-uppercase small text-muted mb-1">

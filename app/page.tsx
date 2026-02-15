@@ -1,15 +1,16 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { HomeCarousel } from "@/components/HomeCarousel";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Software Development Company in Raipur | Custom Web & App Development",
+  title: "Software Development Company in India | Custom Web & App Development",
   description:
-    "Optimal IT Solution is a software development company in Raipur, Chhattisgarh. We build custom software, web & mobile apps, and offer digital marketing, SEO & IT solutions. Get a free quote.",
+    "Optimal IT Solution — software development company in Raipur, Chhattisgarh. Serving clients across India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & mobile apps, digital marketing, SEO. Get a free quote.",
   openGraph: {
-    title: "Software Development Company in Raipur | Optimal IT Solution",
+    title: "Software Development Company in India | Optimal IT Solution",
     description:
-      "Custom software, web & app development, digital marketing & SEO in Raipur. Your trusted IT and software development company in Chhattisgarh.",
+      "Software development company in Raipur, Chhattisgarh. Serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing & SEO.",
     url: "https://optimalitsolution.com",
   },
 };
@@ -20,15 +21,18 @@ export default function Home() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="py-5 hero-section" aria-label="Introduction">
-          <div className="container py-5 text-center">
+        <section className="py-3 hero-section" aria-label="Introduction">
+          <div className="container py-2 py-md-3 text-center">
             <p className="text-primary fw-semibold text-uppercase small mb-2">
-              Software development company in Raipur, Chhattisgarh
+              Software development company — serving clients across India
             </p>
-            <h1 className="display-4 fw-bold mb-4">
-              We Build Software That <span className="text-primary">Works</span>
+            <h1 className="hero-heading display-2 fw-bold mb-2">
+              Optimal IT <span className="text-primary">Solution</span>
             </h1>
-            <p className="lead text-muted mb-4 mx-auto" style={{ maxWidth: "36rem" }}>
+            <p className="hero-tagline display-6 fw-bold mb-3">
+              We Build Software That <span className="text-primary">Works</span>
+            </p>
+            <p className="lead text-muted mb-3 mx-auto" style={{ maxWidth: "36rem" }}>
               Custom software development, web applications & mobile apps. We deliver clean,
               maintainable code and clear communication — so you get a product
               that lasts.
@@ -44,8 +48,35 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Carousel (left) + Get your business online (right) */}
+        <section className="py-4 get-online-section" aria-label="Our work and get your business online">
+          <div className="container">
+            <div className="row align-items-stretch g-4">
+              <div className="col-lg-6 order-2 order-lg-1">
+                <HomeCarousel embed />
+              </div>
+              <div className="col-lg-6 order-1 order-lg-2 d-flex">
+                <div className="rounded-4 shadow-lg get-online-card bg-primary bg-opacity-10 p-4 p-lg-4 w-100 d-flex flex-column justify-content-center">
+                  <h2 className="fw-bold mb-3 display-6">Get Your Business Online</h2>
+                  <p className="lead text-dark mb-2">
+                    A professional website puts your business in front of customers 24/7 — even when you&apos;re not working.
+                  </p>
+                  <p className="text-muted mb-4">
+                    Take your business online with a fast, mobile-friendly website. We make it simple and affordable.
+                  </p>
+                  <p className="mb-1 fw-bold fs-3 text-primary">Website from just ₹4,999</p>
+                  <p className="small text-muted mb-4">Starting price · No hidden costs</p>
+                  <Link href="/contact" className="btn btn-primary btn-lg">
+                    Get a quote
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Stats */}
-        <section className="py-4 bg-primary text-white">
+        <section className="py-3 bg-primary text-white">
           <div className="container">
             <div className="row g-4 text-center">
               <div className="col-6 col-md-3">
@@ -69,9 +100,9 @@ export default function Home() {
         </section>
 
         {/* Services preview */}
-        <section id="services" className="py-5">
+        <section id="services" className="py-4">
           <div className="container">
-            <div className="text-center mb-5">
+            <div className="text-center mb-4">
               <h2 className="fw-bold mb-2">Our Services</h2>
               <p className="text-muted">What we do best</p>
             </div>
@@ -100,7 +131,7 @@ export default function Home() {
                     </div>
                     <h5 className="card-title fw-bold">Web & App Development</h5>
                     <p className="card-text text-muted">
-                      Websites, web apps, and mobile apps built with modern tech.
+                      Professional websites from ₹4,999. Your business stays online 24/7 — web & mobile apps built with modern tech.
                     </p>
                     <Link href="/services#web-app-development" className="btn btn-sm btn-outline-primary">
                       Learn more →
@@ -166,9 +197,9 @@ export default function Home() {
         </section>
 
         {/* How we work teaser */}
-        <section className="py-5 bg-light">
+        <section className="py-4 bg-light">
           <div className="container">
-            <div className="row align-items-center g-5">
+            <div className="row align-items-center g-4">
               <div className="col-lg-6">
                 <h2 className="fw-bold mb-3">How We Work</h2>
                 <p className="text-muted mb-4">
@@ -217,9 +248,9 @@ export default function Home() {
         </section>
 
         {/* Testimonials / trust */}
-        <section className="py-5">
+        <section className="py-4">
           <div className="container">
-            <h2 className="text-center fw-bold mb-5">Why Choose Us</h2>
+            <h2 className="text-center fw-bold mb-4">Why Choose Us</h2>
             <div className="row g-4">
               <div className="col-md-4 text-center">
                 <div className="p-4">
@@ -262,8 +293,8 @@ export default function Home() {
         </section>
 
         {/* CTA */}
-        <section id="contact" className="py-5 bg-primary text-white">
-          <div className="container text-center py-4">
+        <section id="contact" className="py-4 bg-primary text-white">
+          <div className="container text-center py-3">
             <h2 className="h3 fw-bold mb-3">Ready to Start?</h2>
             <p className="opacity-90 mb-4">
               Tell us about your project. We respond within 24 hours.

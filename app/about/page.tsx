@@ -3,9 +3,9 @@ import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us — Software Development Company in Raipur",
+  title: "About Us — Software Development Company in India",
   description:
-    "Optimal IT Solution is a software development company in Raipur, Chhattisgarh. Learn about our team, values, and approach to custom software and IT solutions.",
+    "Optimal IT Solution is a software development company in Raipur, Chhattisgarh, serving clients across India and neighbouring states. Learn about our team, values, and approach to custom software and IT solutions.",
   openGraph: {
     url: "https://optimalitsolution.com/about",
   },

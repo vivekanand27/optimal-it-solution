@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Services — Custom Software, Web Development & Digital Marketing",
   description:
-    "Software development services in Raipur: custom software, web & app development, digital marketing, SEO, PPC, social media management. Get a quote from Optimal IT Solution.",
+    "Software development services in Raipur, Chhattisgarh — serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing, SEO, PPC, social media management. Get a quote from Optimal IT Solution.",
   openGraph: {
     url: "https://optimalitsolution.com/services",
   },
@@ -25,8 +25,8 @@ const services = [
     title: "Web & App Development",
     tag: "Web & mobile",
     description:
-      "From responsive websites to full-stack web and mobile apps. We build with modern tech so you get fast, scalable products that users love.",
-    points: ["Websites & web apps", "Mobile apps", "APIs & integrations"],
+      "Get your business online with a professional website — starting from just ₹4,999. Your business stays open 24/7, even when you're not. We also build full-stack web and mobile apps with modern tech.",
+    points: ["Website from ₹4,999", "Websites & web apps", "Mobile apps", "APIs & integrations"],
   },
   {
     id: "seo-ppc",
