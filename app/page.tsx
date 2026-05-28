@@ -75,6 +75,94 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Happy customers */}
+        <section className="py-4 bg-light" aria-label="Happy customers">
+          <div className="container">
+            <div className="text-center mb-4">
+              <h2 className="fw-bold mb-2">Happy Customers</h2>
+              <p className="text-muted mb-0">
+                Businesses that trust us for design and development
+              </p>
+            </div>
+            <div className="row g-4">
+              <div className="col-12 col-md-6">
+                <a
+                  href="https://lakshmihomeo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none"
+                >
+                  <div className="card h-100 shadow-sm border-0 hover-lift">
+                    <div className="card-body p-4">
+                      <div className="d-flex align-items-center gap-3 mb-3">
+                        <img
+                          src="https://www.google.com/s2/favicons?domain=lakshmihomeo.com&sz=64"
+                          alt="Lakshmi Homeopathy logo"
+                          width={40}
+                          height={40}
+                          className="rounded-circle border"
+                        />
+                        <div>
+                          <h3 className="h5 fw-bold mb-0 text-dark">
+                            Lakshmi Homeopathy
+                          </h3>
+                          <p className="small text-muted mb-0">
+                            lakshmihomeo.com
+                          </p>
+                        </div>
+                      </div>
+                      <p className="text-muted mb-3">
+                        E-commerce website for genuine homeopathic medicines with
+                        product listings, offers, and all-India delivery.
+                      </p>
+                      <span className="small fw-semibold text-primary">
+                        Visit website →
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-12 col-md-6">
+                <a
+                  href="https://www.priya-tour-and-travels.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none"
+                >
+                  <div className="card h-100 shadow-sm border-0 hover-lift">
+                    <div className="card-body p-4">
+                      <div className="d-flex align-items-center gap-3 mb-3">
+                        <img
+                          src="https://www.google.com/s2/favicons?domain=priya-tour-and-travels.com&sz=64"
+                          alt="Priya Tour and Travels logo"
+                          width={40}
+                          height={40}
+                          className="rounded-circle border"
+                        />
+                        <div>
+                          <h3 className="h5 fw-bold mb-0 text-dark">
+                            Priya Tour and Travels
+                          </h3>
+                          <p className="small text-muted mb-0">
+                            priya-tour-and-travels.com
+                          </p>
+                        </div>
+                      </div>
+                      <p className="text-muted mb-3">
+                        Premium cab booking website highlighting fleet, routes,
+                        transparent pricing, and easy inquiry options.
+                      </p>
+                      <span className="small fw-semibold text-primary">
+                        Visit website →
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Stats */}
         <section className="py-3 bg-primary text-white">
           <div className="container">
