@@ -4,13 +4,13 @@ import { HomeCarousel } from "@/components/HomeCarousel";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Software Development Company in India | Custom Web & App Development",
+  title: "Software Development Company | Custom Web & App Development",
   description:
-    "Optimal IT Solution — software development company in Raipur, Chhattisgarh. Serving clients across India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & mobile apps, digital marketing, SEO. Get a free quote.",
+    "Optimal IT Solution — trusted software and web development company for modern businesses. Custom software, web & mobile apps, digital marketing, and SEO. Get a free quote.",
   openGraph: {
-    title: "Software Development Company in India | Optimal IT Solution",
+    title: "Software Development Company | Optimal IT Solution",
     description:
-      "Software development company in Raipur, Chhattisgarh. Serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing & SEO.",
+      "Trusted software and web development company for modern businesses. Custom software, web & app development, digital marketing & SEO.",
     url: "https://optimalitsolution.com",
   },
 };
