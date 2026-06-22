@@ -16,8 +16,11 @@ export default function ContactPage() {
     <>
       <Header />
       <main>
-        <section className="py-5 bg-primary text-white">
+        <section className="py-5 bg-primary">
           <div className="container py-4">
+            <p className="text-muted fw-semibold text-uppercase small mb-2">
+              Let&apos;s build something useful
+            </p>
             <h1 className="display-5 fw-bold">Contact Us</h1>
             <p className="lead mb-0 opacity-90">
               Have a project in mind? We&apos;d love to hear from you.
@@ -29,6 +32,7 @@ export default function ContactPage() {
           <div className="container">
             <div className="row g-5">
               <div className="col-lg-5">
+                <p className="section-kicker mb-2">Project inquiry</p>
                 <h2 className="h5 fw-bold mb-3">Get in touch</h2>
                 <p className="text-muted mb-2">
                   Describe your project or ask a question. We typically respond
@@ -82,7 +86,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="col-lg-7">
-                <div className="card shadow-sm border-0">
+                <div className="card shadow-sm border-0 hover-lift">
                   <div className="card-body p-4 p-lg-5">
                     <ContactForm />
                   </div>

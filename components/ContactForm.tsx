@@ -55,7 +55,7 @@ export function ContactForm() {
       const body = encodeURIComponent(
         `${message}\n\n---\nFrom: ${name}\nEmail: ${email}`
       );
-      window.location.href = `mailto:optimalitsolution26@gmail.com?subject=${subject}&body=${body}`;
+      globalThis.location.href = `mailto:optimalitsolution26@gmail.com?subject=${subject}&body=${body}`;
       setSending(false);
     }
   }
@@ -71,10 +71,7 @@ export function ContactForm() {
         </p>
         <p className="small text-muted">
           You can also email us at{" "}
-          <a href="mailto:optimalitsolution26@gmail.com">
-            optimalitsolution26@gmail.com
-          </a>
-          .
+          <a href="mailto:optimalitsolution26@gmail.com">optimalitsolution26@gmail.com</a>.
         </p>
       </div>
     );
@@ -129,7 +126,7 @@ export function ContactForm() {
           {error}
         </div>
       )}
-      <button type="submit" className="btn btn-primary" disabled={sending}>
+      <button type="submit" className="btn btn-primary btn-lg px-4" disabled={sending}>
         {sending ? "Sending…" : "Send message"}
       </button>
     </form>

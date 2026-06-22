@@ -4,7 +4,7 @@ import Image from "next/image";
 export function Header() {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top"
+      className="navbar navbar-expand-lg navbar-dark navbar-site shadow-sm fixed-top"
       data-bs-theme="dark"
     >
       <div className="container">
@@ -31,7 +31,7 @@ export function Header() {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbar-nav">
-          <ul className="navbar-nav ms-auto gap-2">
+          <ul className="navbar-nav ms-auto align-items-lg-center gap-2">
             <li className="nav-item">
               <Link className="nav-link" href="/">
                 Home
@@ -50,6 +50,11 @@ export function Header() {
             <li className="nav-item">
               <Link className="nav-link" href="/contact">
                 Contact
+              </Link>
+            </li>
+            <li className="nav-item ms-lg-2">
+              <Link className="nav-link nav-cta px-3" href="/contact">
+                Get Quote
               </Link>
             </li>
           </ul>

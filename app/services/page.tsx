@@ -66,8 +66,11 @@ export default function ServicesPage() {
     <>
       <Header />
       <main>
-        <section className="py-5 bg-primary text-white">
+        <section className="py-5 bg-primary">
           <div className="container py-4">
+            <p className="text-muted fw-semibold text-uppercase small mb-2">
+              Services for growing businesses
+            </p>
             <h1 className="display-5 fw-bold">Our Services</h1>
             <p className="lead mb-0 opacity-90">
               Digital marketing, web & app development, SEO & PPC, social media
@@ -82,7 +85,7 @@ export default function ServicesPage() {
               <div
                 key={s.id}
                 id={s.id}
-                className={`row align-items-center g-4 py-4 ${
+                className={`row align-items-center g-4 py-4 px-lg-3 rounded-4 hover-lift ${
                   i > 0 ? "border-top" : ""
                 }`}
               >
@@ -93,8 +96,8 @@ export default function ServicesPage() {
                 <div className="col-lg-5">
                   <p className="text-muted mb-3">{s.description}</p>
                   <ul className="list-unstyled mb-0 small">
-                    {s.points.map((p, j) => (
-                      <li key={j} className="mb-1">
+                    {s.points.map((p) => (
+                      <li key={p} className="mb-1">
                         <span className="text-primary me-2">✓</span>
                         {p}
                       </li>
@@ -113,12 +116,13 @@ export default function ServicesPage() {
 
         <section className="py-5 bg-light">
           <div className="container">
+            <p className="section-kicker text-center mb-2">Process</p>
             <h2 className="text-center h4 fw-bold mb-5">How We Work</h2>
             <div className="row g-4">
               {process.map((p) => (
                 <div key={p.step} className="col-6 col-lg-3">
-                  <div className="text-center p-4 bg-white rounded-3 shadow-sm h-100">
-                    <div className="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center mb-3 fw-bold">
+                  <div className="text-center p-4 bg-white rounded-4 shadow-sm h-100 hover-lift">
+                    <div className="rounded-circle bg-primary d-inline-flex align-items-center justify-content-center mb-3 fw-bold">
                       {p.step}
                     </div>
                     <h5 className="h6 fw-bold">{p.title}</h5>
@@ -132,6 +136,7 @@ export default function ServicesPage() {
 
         <section className="py-5">
           <div className="container text-center">
+            <p className="section-kicker mb-2">Start now</p>
             <p className="lead text-muted mb-4">
               Tell us about your project. We&apos;ll respond within 24 hours.
             </p>

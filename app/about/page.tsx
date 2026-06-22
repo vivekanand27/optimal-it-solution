@@ -16,8 +16,11 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        <section className="py-5 bg-primary text-white">
+        <section className="py-5 bg-primary">
           <div className="container py-4">
+            <p className="text-muted fw-semibold text-uppercase small mb-2">
+              About Optimal IT Solution
+            </p>
             <h1 className="display-5 fw-bold">About Us</h1>
             <p className="lead mb-0 opacity-90">
               We&apos;re a software company that believes in building solutions
@@ -30,7 +33,8 @@ export default function AboutPage() {
           <div className="container">
             <div className="row align-items-center g-5">
               <div className="col-lg-6">
-                <h2 className="h3 fw-bold mb-4">Our Story</h2>
+                <p className="section-kicker mb-2">Our story</p>
+                <h2 className="h3 fw-bold mb-4">Built for practical business outcomes</h2>
                 <p className="text-muted">
                   Optimal IT Solution started with a simple idea: businesses
                   deserve software that fits their needs, not the other way
@@ -45,7 +49,7 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="col-lg-6">
-                <div className="bg-light rounded-3 p-4 p-lg-5 border border-1">
+                <div className="card hover-lift p-4 p-lg-5">
                   <h3 className="h5 fw-bold mb-4">What We Believe</h3>
                   <ul className="list-unstyled mb-0">
                     <li className="d-flex align-items-start gap-3 mb-3">
@@ -84,7 +88,8 @@ export default function AboutPage() {
 
         <section className="py-5 bg-light">
           <div className="container text-center">
-            <h2 className="h3 fw-bold mb-4">Why Work With Us?</h2>
+            <p className="section-kicker mb-2">Why work with us</p>
+            <h2 className="h3 fw-bold mb-4">Small team focus, polished delivery</h2>
             <div className="row g-4">
               <div className="col-md-4">
                 <div className="p-4">
