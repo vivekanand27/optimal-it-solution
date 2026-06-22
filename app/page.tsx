@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HomeCarousel } from "@/components/HomeCarousel";
+import { CustomerLogo } from "@/components/CustomerLogo";
 import Link from "next/link";
 
 export const metadata = {
@@ -178,12 +179,10 @@ export default function Home() {
                   <div className="card h-100 shadow-sm border-0 hover-lift">
                     <div className="card-body p-4">
                       <div className="d-flex align-items-center gap-3 mb-3">
-                        <img
-                          src="https://www.google.com/s2/favicons?domain=maalaxmitoursandtravels.com&sz=64"
+                        <CustomerLogo
+                          src="https://www.maalaxmitoursandtravels.com/images/logo/logo_2.png"
+                          fallbackSrc="/customers/maa-laxmi-logo.png"
                           alt="Maa Laxmi Tours and Travels logo"
-                          width={40}
-                          height={40}
-                          className="rounded-circle border"
                         />
                         <div>
                           <h3 className="h5 fw-bold mb-0 text-dark">
