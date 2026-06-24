@@ -40,7 +40,7 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-3">
             <h6 className="fw-bold text-uppercase mb-3">Get in Touch</h6>
             <a
               href="mailto:optimalitsolution26@gmail.com"
@@ -57,6 +57,21 @@ export function Footer() {
             <p className="small text-muted mb-0">
               Kabir Nagar, Raipur, Chhattisgarh 492099
             </p>
+          </div>
+          <div className="col-md-2">
+            <h6 className="fw-bold text-uppercase mb-3">Legal</h6>
+            <ul className="list-unstyled small">
+              <li className="mb-2">
+                <Link href="/privacy" className="text-muted text-decoration-none">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/terms" className="text-muted text-decoration-none">
+                  Terms
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
         <hr className="opacity-25" />

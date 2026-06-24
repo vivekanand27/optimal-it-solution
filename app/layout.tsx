@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/JsonLd";
 import "./globals.css";
 
 const siteUrl = "https://optimalitsolution.com";
+const adsenseClient = "ca-pub-6401774682355586";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -49,7 +50,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Optimal IT Solution | Software Development Company in India",
-    description: "Custom software, web & app development, digital marketing & SEO — Raipur, Chhattisgarh; serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam.",
+    description:
+      "Custom software, web & app development, digital marketing & SEO — Raipur, Chhattisgarh; serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam.",
   },
   robots: {
     index: true,
@@ -70,6 +72,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-vh-100">
         <JsonLd />
         {children}
