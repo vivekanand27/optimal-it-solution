@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { BootstrapClient } from "@/components/BootstrapClient";
 import { JsonLd } from "@/components/JsonLd";
 import "./globals.css";
 
 const siteUrl = "https://optimalitsolution.com";
 const adsenseClient = "ca-pub-6401774682355586";
+const gaMeasurementId = "G-BWM2NSE66J";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -78,6 +80,19 @@ export default function RootLayout({
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
           crossOrigin="anonymous"
         />
+        <Script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gaMeasurementId}');
+          `}
+        </Script>
       </head>
       <body className="min-vh-100">
         <JsonLd />
