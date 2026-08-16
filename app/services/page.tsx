@@ -3,11 +3,24 @@ import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Services — Custom Software, Web Development & Digital Marketing",
+  title: "Software & Web Development Services",
   description:
     "Software development services in Raipur, Chhattisgarh — serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing, SEO, PPC, social media management. Get a quote from Optimal IT Solution.",
+  alternates: {
+    canonical: "/services",
+  },
   openGraph: {
+    title: "Software & Web Development Services | Optimal IT Solution",
+    description:
+      "Custom software, web & app development, digital marketing, SEO, PPC, and social media management. Serving clients across India.",
     url: "https://optimalitsolution.com/services",
+    images: [{ url: "/logo.png", width: 600, height: 148, alt: "Optimal IT Solution" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Software & Web Development Services | Optimal IT Solution",
+    description:
+      "Custom software, web & app development, digital marketing, SEO, PPC, and social media management. Serving clients across India.",
   },
 };
 

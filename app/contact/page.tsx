@@ -3,11 +3,24 @@ import { Footer } from "@/components/Footer";
 import { ContactForm } from "../../components/ContactForm";
 
 export const metadata = {
-  title: "Contact — Software Development Company in India",
+  title: "Contact Us — Get a Free Quote",
   description:
     "Contact Optimal IT Solution in Raipur, Chhattisgarh for custom software, web development, or digital marketing. Serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Phone 8851335509. We respond within 24 hours.",
+  alternates: {
+    canonical: "/contact",
+  },
   openGraph: {
+    title: "Contact Optimal IT Solution",
+    description:
+      "Contact us for custom software, web development, or digital marketing. Serving clients across India. We respond within 24 hours.",
     url: "https://optimalitsolution.com/contact",
+    images: [{ url: "/logo.png", width: 600, height: 148, alt: "Optimal IT Solution" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Optimal IT Solution",
+    description:
+      "Contact us for custom software, web development, or digital marketing. Serving clients across India. We respond within 24 hours.",
   },
 };
 

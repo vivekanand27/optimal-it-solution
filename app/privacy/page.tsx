@@ -6,6 +6,9 @@ export const metadata = {
   title: "Privacy Policy",
   description:
     "Privacy Policy for Optimal IT Solution. Learn how we collect, use, and protect information submitted through optimalitsolution.com.",
+  alternates: {
+    canonical: "/privacy",
+  },
   openGraph: {
     url: "https://optimalitsolution.com/privacy",
   },

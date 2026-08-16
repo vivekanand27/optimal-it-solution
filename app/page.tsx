@@ -5,14 +5,24 @@ import { CustomerLogo } from "@/components/CustomerLogo";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Software Development Company | Custom Web & App Development",
+  title: "Software Development Company in India | Optimal IT Solution",
   description:
     "Optimal IT Solution — trusted software and web development company for modern businesses. Custom software, web & mobile apps, digital marketing, and SEO. Get a free quote.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Software Development Company | Optimal IT Solution",
+    title: "Software Development Company in India | Optimal IT Solution",
     description:
       "Trusted software and web development company for modern businesses. Custom software, web & app development, digital marketing & SEO.",
     url: "https://optimalitsolution.com",
+    images: [{ url: "/logo.png", width: 600, height: 148, alt: "Optimal IT Solution" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Software Development Company in India | Optimal IT Solution",
+    description:
+      "Trusted software and web development company for modern businesses. Custom software, web & app development, digital marketing & SEO.",
   },
 };
 

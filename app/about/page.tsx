@@ -3,11 +3,24 @@ import { Footer } from "@/components/Footer";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us — Software Development Company in India",
+  title: "About Our Software Development Company",
   description:
     "Optimal IT Solution is a software development company in Raipur, Chhattisgarh, serving clients across India and neighbouring states. Learn about our team, values, and approach to custom software and IT solutions.",
+  alternates: {
+    canonical: "/about",
+  },
   openGraph: {
+    title: "About Optimal IT Solution",
+    description:
+      "Software development company in Raipur, Chhattisgarh, serving clients across India. Learn about our team, values, and approach.",
     url: "https://optimalitsolution.com/about",
+    images: [{ url: "/logo.png", width: 600, height: 148, alt: "Optimal IT Solution" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Optimal IT Solution",
+    description:
+      "Software development company in Raipur, Chhattisgarh, serving clients across India. Learn about our team, values, and approach.",
   },
 };
 

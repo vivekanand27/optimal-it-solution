@@ -6,6 +6,9 @@ export const metadata = {
   title: "Terms and Conditions",
   description:
     "Terms and Conditions for using optimalitsolution.com and contacting Optimal IT Solution for software development, web development, and digital marketing services.",
+  alternates: {
+    canonical: "/terms",
+  },
   openGraph: {
     url: "https://optimalitsolution.com/terms",
   },
