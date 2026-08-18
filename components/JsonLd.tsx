@@ -38,6 +38,18 @@ export function JsonLd() {
         },
         priceRange: "$$",
         areaServed: { "@type": "GeoCircle", geoMidpoint: { "@type": "GeoCoordinates", latitude: 21.2514, longitude: 81.6296 }, geoRadius: "50000" },
+        makesOffer: [
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Google Business Profile Setup & Ads",
+              description:
+                "Professional Google Business Profile setup and verification so your phone number, address, and hours appear on Google Search & Maps, plus Google Ads campaign management for local leads.",
+              url: "https://optimalitsolution.com/services#google-business-profile",
+            },
+          },
+        ],
       },
       {
         "@type": "WebSite",

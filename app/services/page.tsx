@@ -5,14 +5,26 @@ import Link from "next/link";
 export const metadata = {
   title: "Software & Web Development Services",
   description:
-    "Software development services in Raipur, Chhattisgarh — serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing, SEO, PPC, social media management. Get a quote from Optimal IT Solution.",
+    "Software development services in Raipur, Chhattisgarh — serving India, Odisha, MP, Jharkhand, Bihar, Maharashtra, Visakhapatnam. Custom software, web & app development, digital marketing, SEO, PPC, social media management, and Google Business Profile setup & Ads. Get a quote from Optimal IT Solution.",
+  keywords: [
+    "web development services",
+    "digital marketing services",
+    "SEO PPC services India",
+    "custom software development",
+    "Google Business Profile setup",
+    "Google My Business listing",
+    "GMB profile creation and verification",
+    "get phone number on Google search",
+    "Google Ads campaign setup",
+    "local SEO Raipur",
+  ],
   alternates: {
     canonical: "/services",
   },
   openGraph: {
     title: "Software & Web Development Services | Optimal IT Solution",
     description:
-      "Custom software, web & app development, digital marketing, SEO, PPC, and social media management. Serving clients across India.",
+      "Custom software, web & app development, digital marketing, SEO, PPC, social media management, and Google Business Profile setup & Ads. Serving clients across India.",
     url: "https://optimalitsolution.com/services",
     images: [{ url: "/logo.png", width: 600, height: 148, alt: "Optimal IT Solution" }],
   },
@@ -20,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Software & Web Development Services | Optimal IT Solution",
     description:
-      "Custom software, web & app development, digital marketing, SEO, PPC, and social media management. Serving clients across India.",
+      "Custom software, web & app development, digital marketing, SEO, PPC, social media management, and Google Business Profile setup & Ads. Serving clients across India.",
   },
 };
 
@@ -64,6 +76,19 @@ const services = [
     description:
       "Tailored software that fits your workflows. Internal tools, dashboards, and automation that integrate with your systems and scale with your business.",
     points: ["Requirements & discovery", "Custom development", "Maintenance & support"],
+  },
+  {
+    id: "google-business-profile",
+    title: "Google Business Profile & Ads",
+    tag: "Get found locally",
+    description:
+      "A professional Google Business Profile puts your phone number, address, and hours right on Google Search & Maps — so customers can call you directly. We set it up, verify it, and run Google Ads to bring in more local leads.",
+    points: [
+      "Profile setup & verification",
+      "Phone number, hours & location on Google",
+      "Photos, posts & review management",
+      "Google Ads campaign setup",
+    ],
   },
 ];
 

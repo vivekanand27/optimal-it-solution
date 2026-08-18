@@ -7,7 +7,17 @@ import Link from "next/link";
 export const metadata = {
   title: "Software Development Company in India | Optimal IT Solution",
   description:
-    "Optimal IT Solution — trusted software and web development company for modern businesses. Custom software, web & mobile apps, digital marketing, and SEO. Get a free quote.",
+    "Optimal IT Solution — trusted software and web development company for modern businesses. Custom software, web & mobile apps, digital marketing, SEO, and Google Business Profile setup & Ads. Get a free quote.",
+  keywords: [
+    "software development company",
+    "web development company India",
+    "Google Business Profile setup",
+    "Google My Business listing",
+    "get phone number on Google",
+    "Google Ads setup",
+    "digital marketing India",
+    "SEO company India",
+  ],
   alternates: {
     canonical: "/",
   },
@@ -326,6 +336,22 @@ export default function Home() {
                       Tailored software, dashboards, and automation for your business.
                     </p>
                     <Link href="/services#custom-software" className="btn btn-sm btn-outline-primary">
+                      Learn more →
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-md-6 col-lg-4">
+                <div className="card h-100 shadow-sm border-0 hover-lift">
+                  <div className="card-body p-4">
+                    <div className="icon-bubble mb-3">
+                      <span className="fs-4">◆</span>
+                    </div>
+                    <h5 className="card-title fw-bold">Google Business Profile & Ads</h5>
+                    <p className="card-text text-muted">
+                      Get your phone number, hours & location live on Google Search and Maps, plus Google Ads to bring in local customers.
+                    </p>
+                    <Link href="/services#google-business-profile" className="btn btn-sm btn-outline-primary">
                       Learn more →
                     </Link>
                   </div>
