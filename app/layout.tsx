@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { BootstrapClient } from "@/components/BootstrapClient";
+import { FloatingActions } from "@/components/FloatingActions";
 import { JsonLd } from "@/components/JsonLd";
 import "./globals.css";
 
@@ -97,6 +98,7 @@ export default function RootLayout({
       <body className="min-vh-100">
         <JsonLd />
         {children}
+        <FloatingActions />
         <BootstrapClient />
       </body>
     </html>
