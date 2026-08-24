@@ -224,6 +224,43 @@ export default function Home() {
                   </div>
                 </a>
               </div>
+              <div className="col-12 col-md-6 col-lg-4">
+                <a
+                  href="https://www.garima-rani-tour-and-travels.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none"
+                >
+                  <div className="card h-100 shadow-sm border-0 hover-lift">
+                    <div className="card-body p-4">
+                      <div className="d-flex align-items-center gap-3 mb-3">
+                        <img
+                          src="https://www.google.com/s2/favicons?domain=garima-rani-tour-and-travels.com&sz=64"
+                          alt="Garima Rani Tour and Travels logo"
+                          width={40}
+                          height={40}
+                          className="rounded-circle border"
+                        />
+                        <div>
+                          <h3 className="h5 fw-bold mb-0 text-dark">
+                            Garima Rani Tour and Travels
+                          </h3>
+                          <p className="small text-muted mb-0">
+                            garima-rani-tour-and-travels.com
+                          </p>
+                        </div>
+                      </div>
+                      <p className="text-muted mb-3">
+                        Tour and travels website showcasing services and
+                        packages to help travelers plan and book with ease.
+                      </p>
+                      <span className="small fw-semibold text-primary">
+                        Visit website →
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </section>
